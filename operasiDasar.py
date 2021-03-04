@@ -1,9 +1,9 @@
 # Masukkan angka
-no1 = input('Masukkan angka pertama: ')
-no2 = input('Masukkan angka kedua: ')
+no1 = float(input('Masukkan angka pertama: '))
+no2 = float(input('Masukkan angka kedua: '))
 
 # Operasi dasar terjadi
-sum = float(no1) - float(no2)
+kal = no1 * no2;
 
 # Output
-print('Hasil pengurangan {0} dan {1} adalah {2}'.format(no1, no2, sum))
+print('Hasil perkalian dari angka yang diberikan adalah:',kal)
